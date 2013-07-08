@@ -95,6 +95,7 @@ dependencies[] = jquery_plugin
 
 
 dependencies[] = rules
-dependencies[] = rules_ui
+;Module Rules UI
+dependencies[] = rules_admin
 
 dependencies[] = chosen
