@@ -89,6 +89,7 @@ dependencies[] = webform
 dependencies[] = webform_ajax
 
 
+dependencies[] = seven
 
 
 
