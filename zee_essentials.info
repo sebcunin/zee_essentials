@@ -90,6 +90,9 @@ dependencies[] = webform_ajax
 
 
 dependencies[] = seven
+dependencies[] = jquery_update
+dependencies[] = jquery_plugin
+
 
 
 
