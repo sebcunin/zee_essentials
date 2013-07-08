@@ -7,6 +7,7 @@ dependencies[] = block
 ;Ne plus inclure le module comment
 ;dependencies[] = comment
 
+dependencies[] = book
 dependencies[] = contextual
 dependencies[] = dashboard
 dependencies[] = help
@@ -25,7 +26,7 @@ dependencies[] = toolbar
 
 
 dependencies[] = file
-dependencies[] = rdf
+//dependencies[] = rdf
 dependencies[] = locale
 dependencies[] = syslog
 
@@ -89,7 +90,5 @@ dependencies[] = webform_ajax
 
 
 
-
-variables[hello] = 'hello world'
 
 
