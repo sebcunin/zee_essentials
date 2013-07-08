@@ -392,4 +392,6 @@ function zee_essentials_install() {
   $new_role->weight = 5;
   user_role_save($new_role);
 
+// Activer le thème seven
+module_enable(array("seven"));
 }
