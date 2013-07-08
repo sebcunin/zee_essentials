@@ -394,4 +394,10 @@ function zee_essentials_install() {
 
 // Activer le thème seven
 module_enable(array("seven"));
+
+
+
+// Définir la version du jquery (le module jquery_update doit être activé)
+variable_set('jquery_update_jquery_version','1.8');
+
 }
