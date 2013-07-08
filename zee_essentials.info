@@ -1,0 +1,95 @@
+me = Zee Essentials
+description = Installation Drupal pour débuter rapidement les projets Zee Agency.
+version = 0.9
+core = 7.x
+dependencies[] = block
+;dependencies[] = color
+;Ne plus inclure le module comment
+;dependencies[] = comment
+
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = pathauto
+dependencies[] = transliteration
+dependencies[] = taxonomy
+;dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+;dependencies[] = overlay
+
+dependencies[] = file
+dependencies[] = rdf
+dependencies[] = locale
+dependencies[] = syslog
+
+
+; en plus pour la distribution ZeeProjet
+dependencies[] = module_filter
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = ctools
+dependencies[] = panels
+dependencies[] = workbench
+dependencies[] = page_manager
+
+; ajout du 2013/04/14
+dependencies[] = entityreference
+dependencies[] = field_ui
+dependencies[] = diff
+dependencies[] = advanced_help
+
+
+dependencies[] = media
+
+
+
+dependencies[] = file_entity
+
+;dependencies[] = styleguide
+dependencies[] = token
+
+
+; Référencement et Google Friendly
+dependencies[] = page_title
+
+
+
+
+;dependencies[] = variable
+;dependencies[] = i18n
+;dependencies[] = l10n_update
+
+
+
+dependencies[] = features
+dependencies[] = context
+
+
+dependencies[] = role_delegation
+
+
+; Il permet de switcher de theme
+; suivant des cas bien précis comme une url
+; dans notre case user/ avec le thème d'adminstration 
+dependencies[] = themekey
+dependencies[] = strongarm
+
+
+
+;Formulaires pour les utilisateurs anomymes du site (visiteur)
+dependencies[] = webform
+dependencies[] = webform_ajax
+
+
+
+
+variables[hello] = 'hello world'
+
+
