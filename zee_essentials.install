@@ -11,7 +11,7 @@
  *
  * @see system_install()
  */
-function zee_essentials_install() {
+function zee_essentials_install_off() {
   // Add text formats.
   $filtered_html_format = array(
     'format' => 'filtered_html',
