@@ -80,6 +80,7 @@ dependencies[] = role_delegation
 ; suivant des cas bien précis comme une url
 ; dans notre case user/ avec le thème d'adminstration 
 dependencies[] = themekey
+dependencies[] = themekey_ui
 dependencies[] = strongarm
 
 
@@ -93,5 +94,7 @@ dependencies[] = jquery_update
 dependencies[] = jquery_plugin
 
 
+dependencies[] = rules
+dependencies[] = rules_ui
 
-
+dependencies[] = chosen
