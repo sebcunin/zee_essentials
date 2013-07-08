@@ -22,7 +22,7 @@ dependencies[] = taxonomy
 ;dependencies[] = search
 dependencies[] = shortcut
 dependencies[] = toolbar
-;dependencies[] = overlay
+
 
 dependencies[] = file
 dependencies[] = rdf
