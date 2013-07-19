@@ -17,5 +17,7 @@ function zee_essentials_form_install_configure_form_alter(&$form,
         'Zee Essentials';
   }
 function zee_essentials_js_alter(&$javascript){
- unset($javascript['sites/all/modules/panels/js/panels.js']);
+  if(arg(0)!="admin"){
+    unset($javascript['sites/all/modules/panels/js/panels.js']);
+  }
 }
