@@ -16,3 +16,6 @@ function zee_essentials_form_install_configure_form_alter(&$form,
       $form['site_information']['site_name']['#default_value'] =
         'Zee Essentials';
   }
+function zee_essentials_js_alter(&$javascript){
+ unset($javascript['sites/all/modules/panels/js/panels.js']);
+}
