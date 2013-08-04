@@ -1,4 +1,4 @@
-me = Zee Essentials
+name = Zee Essentials
 description = Installation Drupal pour débuter rapidement les projets Zee Agency.
 version = 0.9
 core = 7.x
